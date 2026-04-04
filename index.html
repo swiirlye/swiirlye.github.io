@@ -121,7 +121,6 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 </style>
 
 </head>
-
 <body class="home blog wp-custom-logo wp-theme-minimalio wp-child-theme-art-portfolio">
 
 
@@ -225,12 +224,12 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 
         <div class="flex items-center justify-between block m-0 posts__row">
 
-          <form action=".//?simply_static_page=12227" class="justify-between block w-full posts__form" method="get">
+          <form action="?simply_static_page=12227" class="justify-between block w-full posts__form" method="get">
 
             <div class="flex flex-wrap items-center justify-start posts__categories-wrapper gap-x-4 lg:gap-x-8 gap-y-4">
 
               <label role="button" tabindex="0" class="posts__tab checked inline-block bg-transparent h-fit rounded-none">
-                <input type="radio" class="posts__radio checked absolute top-0 right-0 bottom-0 left-0 invisible" name="category" value="" onchange="this.form.submit();" data-search-element>
+                <input type="radio" class="posts__radio checked absolute top-0 right-0 bottom-0 left-0 invisible" name="category" value="" data-category="" data-search-element>
                 <span class="posts__tab-label  block">
                   All                </span>
 
@@ -239,7 +238,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
               
                   <label role="button" tabindex="0" class="posts__tab inline-block bg-transparent h-fit rounded-none">
 
-                    <input type="radio" class="absolute top-0 bottom-0 left-0 right-0 invisible posts__radio" name="category" value="art-exhibitions" onchange="this.form.submit();" data-search-element>
+                    <input type="radio" class="absolute top-0 bottom-0 left-0 right-0 invisible posts__radio" name="category" value="art-exhibitions" data-category="art-exhibitions" data-search-element>
                     <span class="posts__tab-label ">
                       Art &amp; Exhibitions                    </span>
 
@@ -248,7 +247,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
               
                   <label role="button" tabindex="0" class="posts__tab inline-block bg-transparent h-fit rounded-none">
 
-                    <input type="radio" class="absolute top-0 bottom-0 left-0 right-0 invisible posts__radio" name="category" value="games" onchange="this.form.submit();" data-search-element>
+                    <input type="radio" class="absolute top-0 bottom-0 left-0 right-0 invisible posts__radio" name="category" value="games" data-category="games" data-search-element>
                     <span class="posts__tab-label ">
                       Games with Stories                    </span>
 
@@ -257,7 +256,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
               
                   <label role="button" tabindex="0" class="posts__tab inline-block bg-transparent h-fit rounded-none">
 
-                    <input type="radio" class="absolute top-0 bottom-0 left-0 right-0 invisible posts__radio" name="category" value="vr" onchange="this.form.submit();" data-search-element>
+                    <input type="radio" class="absolute top-0 bottom-0 left-0 right-0 invisible posts__radio" name="category" value="vr" data-category="vr" data-search-element>
                     <span class="posts__tab-label ">
                       VR Works                    </span>
 
@@ -281,7 +280,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
         
           <div class="grid grid-cols-1 sm:grid-cols-2 posts__row pswp__wrap lg:grid-cols-4">
 
-                          <div class="post-item ">
+                          <div class="post-item " data-category="vr">
 
                 
 <div class="relative w-full post-card blog-post-card-1" data-card-id="1">
@@ -309,7 +308,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 </div>
               </div>
 
-                          <div class="post-item ">
+                          <div class="post-item " data-category="games">
 
                 
 <div class="relative w-full post-card blog-post-card-1" data-card-id="847">
@@ -337,7 +336,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 </div>
               </div>
 
-                          <div class="post-item ">
+                          <div class="post-item " data-category="art-exhibitions">
 
                 
 <div class="relative w-full post-card blog-post-card-1" data-card-id="860">
@@ -365,7 +364,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 </div>
               </div>
 
-                          <div class="post-item ">
+                          <div class="post-item " data-category="games">
 
                 
 <div class="relative w-full post-card blog-post-card-1" data-card-id="840">
@@ -393,7 +392,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 </div>
               </div>
 
-                          <div class="post-item ">
+                          <div class="post-item " data-category="art-exhibitions">
 
                 
 <div class="relative w-full post-card blog-post-card-1" data-card-id="835">
@@ -421,7 +420,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 </div>
               </div>
 
-                          <div class="post-item ">
+                          <div class="post-item " data-category="vr">
 
                 
 <div class="relative w-full post-card blog-post-card-1" data-card-id="868">
@@ -449,7 +448,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 </div>
               </div>
 
-                          <div class="post-item ">
+                          <div class="post-item " data-category="vr">
 
                 
 <div class="relative w-full post-card blog-post-card-1" data-card-id="865">
@@ -477,7 +476,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 </div>
               </div>
 
-                          <div class="post-item ">
+                          <div class="post-item " data-category="games">
 
                 
 <div class="relative w-full post-card blog-post-card-1" data-card-id="1170">
@@ -651,7 +650,61 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 //# sourceURL=//wp-includes/js/wp-emoji-loader.min.js
 /* ]]> */
 </script>
+<script>
+// STEP 4 — read URL first
+const params = new URLSearchParams(window.location.search);
+const activeCategory = params.get("category");
 
+if(activeCategory){
+  document.querySelectorAll(".posts__radio").forEach(radio=>{
+    if(radio.value === activeCategory){
+      radio.checked = true;
+    }
+  });
+}
+
+// STEP 3 — filtering logic
+document.querySelectorAll(".posts__radio").forEach(radio => {
+
+  radio.addEventListener("change", function(){
+
+    const category = this.value;
+
+    document.querySelectorAll(".post-item").forEach(post => {
+
+      if(category === ""){
+        post.style.display = "block";
+        return;
+      }
+
+      if(post.dataset.category?.includes(category)){
+        post.style.display = "block";
+      }else{
+        post.style.display = "none";
+      }
+
+    });
+
+    // STEP 5 — update URL without reload
+    if(category === ""){
+      history.replaceState(null,null,window.location.pathname);
+    }else{
+      history.replaceState(null,null,"?category="+category);
+    }
+
+  });
+
+});
+
+// Trigger filtering on load if category exists
+if(activeCategory){
+  document.querySelectorAll(".posts__radio").forEach(radio=>{
+    if(radio.value === activeCategory){
+      radio.dispatchEvent(new Event("change"));
+    }
+  });
+}
+</script>
 </div></body>
 
 </html>
