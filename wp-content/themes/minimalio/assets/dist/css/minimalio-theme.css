@@ -3593,8 +3593,8 @@ MINIMALIO CUSTOM GUTENBERG BLOCKS
   background: white;
   -webkit-mask-size: cover;
           mask-size: cover;
-  -webkit-mask-image: url("./../vectors/play.svg");
-          mask-image: url("./../vectors/play.svg");
+  -webkit-mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/play.svg");
+          mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/play.svg");
 }
 
 @media screen and (max-width: 768px) {
@@ -3704,20 +3704,20 @@ MINIMALIO CUSTOM GUTENBERG BLOCKS
           mask-size: cover;
 }
 .video-background-controls button.play-toggle {
-  -webkit-mask-image: url("./../vectors/pause.svg");
-          mask-image: url("./../vectors/pause.svg");
+  -webkit-mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/pause.svg");
+          mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/pause.svg");
 }
 .video-background-controls button.play-toggle.paused {
-  -webkit-mask-image: url("./../vectors/play.svg");
-          mask-image: url("./../vectors/play.svg");
+  -webkit-mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/play.svg");
+          mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/play.svg");
 }
 .video-background-controls button.mute-toggle {
-  -webkit-mask-image: url("./../vectors/speaker.svg");
-          mask-image: url("./../vectors/speaker.svg");
+  -webkit-mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/speaker.svg");
+          mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/speaker.svg");
 }
 .video-background-controls button.mute-toggle.muted {
-  -webkit-mask-image: url("./../vectors/mute.svg");
-          mask-image: url("./../vectors/mute.svg");
+  -webkit-mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/mute.svg");
+          mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/mute.svg");
 }
 .video-background-controls button:hover {
   opacity: 0.5;
@@ -3867,20 +3867,20 @@ MINIMALIO CUSTOM GUTENBERG BLOCKS
           mask-size: cover;
 }
 .vimeo-background-controls button.play-toggle {
-  -webkit-mask-image: url("./../vectors/pause.svg");
-          mask-image: url("./../vectors/pause.svg");
+  -webkit-mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/pause.svg");
+          mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/pause.svg");
 }
 .vimeo-background-controls button.play-toggle.paused {
-  -webkit-mask-image: url("./../vectors/play.svg");
-          mask-image: url("./../vectors/play.svg");
+  -webkit-mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/play.svg");
+          mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/play.svg");
 }
 .vimeo-background-controls button.mute-toggle {
-  -webkit-mask-image: url("./../vectors/speaker.svg");
-          mask-image: url("./../vectors/speaker.svg");
+  -webkit-mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/speaker.svg");
+          mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/speaker.svg");
 }
 .vimeo-background-controls button.mute-toggle.muted {
-  -webkit-mask-image: url("./../vectors/mute.svg");
-          mask-image: url("./../vectors/mute.svg");
+  -webkit-mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/mute.svg");
+          mask-image: url("/wp-content/themes/minimalio/assets/dist/vectors/mute.svg");
 }
 .vimeo-background-controls button:hover {
   opacity: 0.5;
